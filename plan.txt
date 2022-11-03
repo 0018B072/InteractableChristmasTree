@@ -1,0 +1,81 @@
+
+have the qr code data be sent to arduino for led id
+the coordinates will be used as distance from origin data
+the bigger distance, the bigger change in color in arduino
+
+
+two things will be sent to arduino
+
+ID: | DISTANCE: 
+
+__________________________________________________
+
+arduino will recieve it
+
+conditionals and loops will take distance
+    if distance > red max
+    elif distance > orange max
+    elif distance > yellow max
+    elif distance > green max
+    elif distance > blue max
+    else:
+
+look up how to implement gradiant in arduino
+put distance as a variable in the forloop for gradient changes
+https://youtu.be/d74DsrS4I6o
+how would I do that if each forloop contains increments that are to be changed when ball changes distance
+I would have to change the insides of a forloop
+
+have the for loop be in a while loop
+distance is given, for loop max range changes to distance
+
+have the redValue += 1; blueValue -= 1; greenValue -=1; combinations
+be put into a function where the function is dependant on the distance
+
+using one value which changes 3 brightness values (red, green, and blue)
+would the values have to be pre-set like what's seen in the video?
+
+
+AUTHORIZED  |  Coordinates:  Point(x=211, y=203) Point(x=234, y=378)
+(211, 203, 234, 378)
+
+
+AUTHORIZED  |  Coordinates:  Point(x=382, y=238) Point(x=545, y=243)
+[(382, 238, 545, 243, 551, 90, 398, 104)]
+
+
+AUTHORIZED  |  Coordinates:  Point(x=140, y=292) Point(x=336, y=317) Point(x=356, y=149) Point(x=187, y=129)
+1
+(140, 292, 336, 317, 356, 149, 187, 129)
+
+
+
+AUTHORIZED  |  Coordinates:  Point(x=260, y=257) Point(x=415, y=243) Point(x=416, y=89) Point(x=274, y=121)
+(260, 257, 415, 243)
+x1+ x2 = 675
+y1+y2 = 500
+(675, 500)
+
+
+AUTHORIZED  |  Coordinates:  Point(x=167, y=313) Point(x=338, y=327) Point(x=361, y=134) Point(x=204, y=149)
+(167, 313, 338, 327)
+2863.5
+
+AUTHORIZED  |  Coordinates:  Point(x=259, y=326) Point(x=461, y=336) Point(x=454, y=107) Point(x=262, y=138)
+(259, 326, 454, 107)
+3781.5
+
+356.5
+
+AUTHORIZED  |  Coordinates:  Point(x=266, y=313) Point(x=442, y=370) Point(x=492, y=179) Point(x=317, y=151)
+(266, 313, 492, 179)
+(379.0, 246.0)
+
+
+AUTHORIZED  |  Coordinates:  Point(x=151, y=304) Point(x=322, y=322) Point(x=345, y=116) Point(x=186, y=131)
+(151, 304, 345, 116)
+2690.0
+
+248
+
+210
